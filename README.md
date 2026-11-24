@@ -12,12 +12,12 @@
 
 1. VScodeを開く
 2. cmd + Jでターミナルを開く
-3. ターミナルでリポジトリを保存したい場所に移動する（例desktop）
+3. ターミナルでリポジトリを保存したい場所に移動する（例desktop）  
    `cd ~/Desktop`
-4. 以下のコマンドでリポジトリをクローンする
+4. 以下のコマンドでリポジトリをクローンする  
    `git clone https://github.com/houransai-develop/houransai-web.git`
-5. クローンしたリポジトリをVScodeで開く
-   `cd houransai-web`
+5. クローンしたリポジトリをVScodeで開く  
+   `cd houransai-web`  
    `code .`
 
 ### 2. Push（変更をGitHubに反映する）方法
@@ -25,14 +25,14 @@
 1. VScodeで変更を加える
 2. 変更を保存する（cmd + S）
 3. ターミナルを開く（cmd + J）
-4. 変更をGitHubにプッシュする
-   `git add .`
-   `git commit -m "ここで変更内容を簡潔に書く"`
+4. 変更をGitHubにプッシュする  
+   `git add .`  
+   `git commit -m "ここで変更内容を簡潔に書く"`  
    `git push`
 
 ### 3. Pull（他の人の変更をローカルに保存）する方法
 
 5. ターミナルを開く（cmd + J）
-6. 以下のコマンドでリモートリポジトリの変更をローカルに反映する
-   `git switch main`
+6. 以下のコマンドでリモートリポジトリの変更をローカルに反映する  
+   `git switch main`  
    `git pull origin main`
