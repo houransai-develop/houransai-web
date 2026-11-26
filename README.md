@@ -29,7 +29,7 @@
    `git add .`  
    `git commit -m "ここで変更内容を簡潔に書く"`  
    `git push`
-5. 最新ではない状態で編集しpushした時にエラーが出た場合
+5. 最新ではない状態で編集しpushした時にエラーが出た場合  
    `git commit -m "ここで変更内容を簡潔に書く"` の後に
    `git pull --rebase origin main`
 　　`git push origin main`
